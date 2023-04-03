@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>youtube.com clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+                <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+            </div>
+            <div class="middle-section">
+                <input class="search_bar" type="text" placeholder="Search" >
+                <button class="search-icon-button">
+                    <img class="search-icon" src="icons/search.svg" alt="">
+                    <div class="tooltip">Search</div>
+                    <!--put a position absolute inside a position relative -->
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                    <div class="tooltip">voice search</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg" alt="">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+                    <div class="tooltip">More Apps</div>
+                </div>
+                
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg" alt="">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notifications</div>
+
+                </div>
+                <img class="current-user-picture" src="chanel pictures/my-channel.jpeg" alt="">
+            </div>
+        </header>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg" alt="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg" alt="">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg" alt="">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg" alt="">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg" alt="">
+                <div>Library</div>
+            </div>
+        </nav>
+
+                    <!-- the input tag is used for the creation of search boxes 
+                we can use the text and check box type for the input -->
+        <main>
+            <section class="video-grid">
+                <div class="video_preview1">
+        
+                    <div class="thumbnail-row">
+                        <img class="thumbnail1" src="thumbnails/thumbnail-1.webp" alt="">
+                        <div class="video-time">14:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="chanel-picture">
+                            <img class="jafar" src="chanel pictures/jafar.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                        <p class="video_title">
+                            Talking tech and AI with google CEO Sunday Pichar
+                        </p>
+                        <p class="video_author">
+                            Fahim Xenon
+                        </p>
+                        <p class="video_stats">
+                            3.4M views &#183; 6months ago
+                        </p>                 
+                        </div> 
+                    </div>      
+                </div>
+            
+                <div class="video_preview2">
+                    <!-- the input tag is used for the creation of search boxes 
+                    we can use the text and check box type for the input -->
+                    <div class="thumbnail-row">
+                        <img class="thumbnail2" src="thumbnails/thumbnail-2.webp" alt="">
+                        <div class="video-time">10:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="chanel-picture">
+                            <img class="rahmah" src="chanel pictures/Dr rahmah.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="video_title">
+                                Try Not to laugh challenge EP9
+                            </p>    
+                            <p class="video_author">
+                                rayan mumtaz
+                            </p>
+                            <p class="video_stats">
+                                5.4M views &#183; 2months ago 
+                            </p>
+                        </div>
+            
+                    </div>
+                </div>  
+                
+                <div class="video_preview1">
+            
+                    <div class="thumbnail-row">
+                        <img class="thumbnail1" src="thumbnails/thumbnail-3.webp" alt="">
+                        <div class="video-time">04:30</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="chanel-picture">
+                            <img class="jafar" src="chanel pictures/jafar.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                        <p class="video_title">
+                            Crazy TikTok moments taken before disaster
+                        </p>
+                        <p class="video_author">
+                            Fahim Xenon
+                        </p>
+                        <p class="video_stats">
+                            3.4M views &#183; 6months ago
+                        </p>                 
+                        </div> 
+                    </div>      
+                </div>
+            
+                <div class="video_preview2">
+                    <!-- the input tag is used for the creation of search boxes 
+                    we can use the text and check box type for the input -->
+                    <div class="thumbnail-row">
+                        <img class="thumbnail2" src="thumbnails/thumbnail-4.webp" alt="">
+                        <div class="video-time">07:50</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="chanel-picture">
+                            <img class="rahmah" src="chanel pictures/Dr rahmah.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="video_title">
+                                The simplest math problem no one can solve
+                            </p>    
+                            <p class="video_author">
+                                rayan mumtaz
+                            </p>
+                            <p class="video_stats">
+                                5.4M views &#183; 2months ago 
+                            </p>
+                        </div>
+            
+                    </div>
+                </div>
+                
+                <div class="video_preview1">
+            
+                    <div class="thumbnail-row">
+                        <img class="thumbnail1" src="thumbnails/thumbnail-5.webp" alt="">
+                        <div class="video-time">4:45</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="chanel-picture">
+                            <img class="jafar" src="chanel pictures/jafar.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                        <p class="video_title">
+                            Kandanez Algorithm to maximum sum 
+                        </p>
+                        <p class="video_author">
+                            Fahim Xenon
+                        </p>
+                        <p class="video_stats">
+                            3.4M views &#183; 6months ago
+                        </p>                 
+                        </div> 
+                    </div>      
+                </div>
+            
+                <div class="video_preview2">
+                    <!-- the input tag is used for the creation of search boxes 
+                    we can use the text and check box type for the input -->
+                    <div class="thumbnail-row">
+                        <img class="thumbnail2" src="thumbnails/thumbnail-6.webp" alt="">
+                        <div class="video-time">08:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="chanel-picture">
+                            <img class="rahmah" src="chanel pictures/Dr rahmah.jpg" alt="">
+                        </div>
+                        <div class="video-info">
+                            <p class="video_title">
+                                Anything you can fit in the circle i can pay for it instantly. 
+                            </p>    
+                            <p class="video_author">
+                                rayan mumtaz
+                            </p>
+                            <p class="video_stats">
+                                5.4M views &#183; 2months ago 
+                            </p>
+                        </div>
+            
+                    </div>
+                </div>   
+            </section>
+        </main>
+                            
+
+    </body>
+</html>

@@ -1,0 +1,75 @@
+.thumbnail1 {
+    width: 100%;
+}
+.video_title {
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+}
+.video_author, 
+.video_stats {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+.video_author {
+    margin-bottom: 4px;
+}
+
+.thumbnail2 {
+    width: 100%;
+}
+.jafar {
+    width: 36px;
+    border-radius: 50px;
+}
+.rahmah {
+    width: 36px;
+    border-radius: 50px;
+}
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+}
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 10px;
+}
+@media (max-width: 750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 751px) and (min-width:999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+
+}
+.video-time {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+    /* the first padding is for top the next for sides */
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+
+}
